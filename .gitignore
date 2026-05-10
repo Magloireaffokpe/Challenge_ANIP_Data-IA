@@ -1,0 +1,61 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# === Notebooks ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.ipynb_checkpoints/*
+
+# optionnel : si vous voulez versionner les notebooks, supprimez la ligne ci-dessus
+
+# === Fichiers de modèles (s'ils sont lourds) ===
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pb
+*.onnx
+*.tflite
+
+# === Données et images (si vous ne voulez pas les versionner) ===
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.csv
+*.xlsx
+
+# === Environnements virtuels ===
+venv/
+env/
+.venv/
+.env/
+virtualenv/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === Streamlit (si vous en créez une) ===
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# === Logs et résultats temporaires ===
+*.log
+predictions_*.csv
