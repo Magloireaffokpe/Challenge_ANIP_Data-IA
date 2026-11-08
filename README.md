@@ -97,3 +97,24 @@ Challenge3/
 ├── tache3_esp.png
 └── test_tache3.py
 README.md
+
+<!-- nouveau-pc:debut -->
+## Installer sur un nouveau PC
+
+**Prérequis :** Git et Python 3.12 (TensorFlow ne suit pas toujours les versions plus récentes).
+
+```bash
+git clone git@github.com:Magloireaffokpe/Challenge_ANIP_Data-IA.git
+cd Challenge_ANIP_Data-IA
+python3 -m venv venv
+source venv/bin/activate     # Windows : venv\Scripts\activate
+pip install tensorflow opencv-python numpy scikit-learn
+```
+
+**À recopier à la main (hors Git, indispensable pour lancer les tests) :**
+
+- `Challenge1/best_siamese_model.keras`
+- `Challenge2/model_tache2_best.h5`
+- `Challenge3/final_model.keras`
+- les images de test `tache*.jpg` et `tache*.png` de chaque dossier
+<!-- nouveau-pc:fin -->
